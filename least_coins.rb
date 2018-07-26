@@ -10,10 +10,10 @@
 
 def least_coins(cents)
   coin_types = {
-    :quarters=>0,
-    :dimes=>0,
-    :nickels=>0,
-    :pennies=>0
+    :quarters => 0,
+    :dimes => 0,
+    :nickels => 0,
+    :pennies => 0
   }
 
   quarters = cents/25
